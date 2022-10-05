@@ -1,4 +1,5 @@
 
+
 let tabuada = 3; 
 
 function escreva(){
@@ -13,4 +14,20 @@ function escreva(){
     document.write(tabuada + " x 8 = "(tabuada*8) +"<br>") ;
     document.write(tabuada + " x 9 = "(tabuada*9) +"<br>") ;
     document.write(tabuada + " x 10 = "(tabuada*10) +"<br>") ;
+}
+let ,lista = ["Jesus", "Spessato"]
+
+function mostraLista(){
+    document.write ("Tamanho da lista: " + lista.length + "<br>");
+    for(let i = 0; i < lista.length; i++){
+        document.write("Professores: " + lista[i] + "<br>")
+    }
+}
+function multiplica(){
+    for(let i = 1; i<= 10; i++){
+document.write("O valor do i = " + i + "<br>");
+for(let j = 1; j <=10; j++){
+    document.write(i + " x "+j+ = "(i+j) +"<br>" 
+} 
+    }
 }
