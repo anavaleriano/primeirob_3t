@@ -1,6 +1,7 @@
-# Terceiro Trimestre 
-##identificacao
-Ana Beatriz Valeriano Araújo N°3 1°B
+# Terceiro Trimestre
 
-##Conteudo
-HTML, CSS e Javascript
+## Identificação
+Ana Beatriz  - Nr. 3 - 1°B
+
+## Conteúdo
+HTML, CSS e javaScript
