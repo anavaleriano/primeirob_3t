@@ -69,12 +69,13 @@ function total(){
     let r = 0;
     for(let i=1; i <= t; i++){
         r = v * (1+(j/100));
-        document.write("mes " + i + " valor:" + moeda(r)  + "<br>");
+        texto = "Mês "+ i + " valor " + moeda(r) + "<br>";
+       //document.write("Mês " + i + " valor:" + moeda(r)  + "<br>");
         v = r;
     }
-    
-
-    document.write("resultado: " + moeda (r));
+    document.getElementById("mês").innerHTML=texto;
+document.getElementById("totalGeral").innerHTML="Total: "+moeda(r);
+    //document.write("resultado: " + moeda (r));
 }
 
 function media(){
@@ -112,17 +113,3 @@ function soma(){
 
 
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
